@@ -65,6 +65,10 @@ header button{
   font-weight: bold;
 }
 
+.fa-grid{
+  width: 13px;
+}
+
 /* MAIN */
 main{
   height: calc(100% - 140px);
@@ -104,6 +108,7 @@ footer{
   background-color: #222222;
   justify-content: space-between;
   align-items: center;
+  min-width: 870px;
 }
 
 footer .box span, .fa-chevron-up{
@@ -119,6 +124,10 @@ footer .box span, .fa-chevron-up{
 .box i{
   font-size: 1.5rem;
   display: block;
+}
+
+.fa-grid-2{
+  width: 24px;
 }
 
 .flex-left,
