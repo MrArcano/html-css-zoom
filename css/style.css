@@ -1,3 +1,4 @@
+/* GENERAL */
 * {
   margin: 0;
   padding: 0;
@@ -12,11 +13,24 @@ body{
 
 header,footer{
   height: 70px;
-  background-color: aliceblue;
 }
 
+/* UTILITY */
+.border-box *{
+  border: 1px solid white;
+}
+
+/* HEADER */
+
+/* MAIN */
 main{
   height: calc(100% - 140px);
-  color: red;
+  color: white;
   overflow: auto;
 }
+
+/* FOOTER */
+footer{
+  background-color: #222222;
+}
+
