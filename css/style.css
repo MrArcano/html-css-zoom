@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+header,footer{
+  height: 70px;
+  background-color: aliceblue;
+}
+
+main{
+  height: calc(100% - 140px);
+  color: red;
+  overflow: auto;
+}
