@@ -61,8 +61,7 @@ main{
   overflow: auto;
 }
 main .container{
-  flex-wrap: wrap;
-  gap: 4px;
+  flex-wrap: wrap;  
   justify-content: center;
   align-content: center;
 }
@@ -71,6 +70,8 @@ main .container{
   position: relative;
   width: 260px;
   height: 150px;
+
+  margin: 4px;
 }
 
 .user img{
@@ -90,5 +91,22 @@ main .container{
 /* FOOTER */
 footer{
   background-color: #222222;
+  justify-content: space-between;
+  align-items: center;
 }
+
+footer span{
+  font-size: 0.8rem;
+}
+
+.box{
+  display: inline-block;
+  text-align: center;
+}
+
+.box i{
+  font-size: 1.5rem;
+  display: block;
+}
+
 
