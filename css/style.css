@@ -21,6 +21,17 @@ header,footer{
   border: 1px solid white;
 }
 
+.container{
+  max-width: 1700px;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.flex-box{
+  display: flex;
+}
+
 /* HEADER */
 header{
   text-align: right;
@@ -43,6 +54,23 @@ main{
   height: calc(100% - 140px);
   color: white;
   overflow: auto;
+}
+main .container{
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: center;
+  align-content: center;
+}
+
+.user{
+  width: 260px;
+  height: 150px;
+}
+
+.user img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* FOOTER */
