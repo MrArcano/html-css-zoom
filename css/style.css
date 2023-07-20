@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html,button{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 body{
   width: 100%;
   height: 100vh;
@@ -63,6 +68,7 @@ main .container{
 }
 
 .user{
+  position: relative;
   width: 260px;
   height: 150px;
 }
@@ -71,6 +77,14 @@ main .container{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.user-text{
+  position: absolute;
+  bottom: 0;
+
+  padding: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* FOOTER */
