@@ -37,6 +37,10 @@ header,footer{
   display: flex;
 }
 
+.c-green{
+  color: #4bc800;
+}
+
 /* HEADER */
 header{
   text-align: right;
@@ -95,8 +99,9 @@ footer{
   align-items: center;
 }
 
-footer span{
-  font-size: 0.8rem;
+footer .box span, .fa-chevron-up{
+  font-size: 0.6rem;
+  padding: 0 8px;
 }
 
 .box{
@@ -108,5 +113,28 @@ footer span{
   font-size: 1.5rem;
   display: block;
 }
+
+.flex-left,
+.flex-center,
+.flex-right{
+  align-items: center;
+}
+
+.flex-left{
+  padding-left: 4px;
+}
+
+.flex-right{
+  height: 100%;
+  line-height: 70px;
+  padding: 0 16px;
+
+  font-size: 0.6rem;
+  background-color: #4a4a4a;
+  color: red;
+}
+
+
+
 
 
