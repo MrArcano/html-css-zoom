@@ -9,6 +9,13 @@ html,button{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+button,
+.box,
+.fa-chevron-up,
+.flex-right span
+{
+  cursor: pointer;
+}
 
 body{
   width: 100%;
@@ -118,6 +125,7 @@ footer .box span, .fa-chevron-up{
 .flex-center,
 .flex-right{
   align-items: center;
+  min-width: 170px;
 }
 
 .flex-left{
@@ -125,10 +133,13 @@ footer .box span, .fa-chevron-up{
 }
 
 .flex-right{
-  height: 100%;
+  text-align: right;
+}
+
+.flex-right span{
+  display: inline-block;
   line-height: 70px;
   padding: 0 16px;
-
   font-size: 0.6rem;
   background-color: #4a4a4a;
   color: red;
