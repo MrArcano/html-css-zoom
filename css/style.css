@@ -10,9 +10,7 @@ html,button{
 }
 
 button,
-.box,
-.fa-chevron-up,
-.flex-right span
+.btn
 {
   cursor: pointer;
 }
@@ -36,7 +34,6 @@ header,footer{
 .container{
   max-width: 1700px;
   width: 90%;
-  height: 100%;
   margin: 0 auto;
 }
 
@@ -130,28 +127,39 @@ footer .box span, .fa-chevron-up{
   width: 24px;
 }
 
-.flex-left,
-.flex-center,
-.flex-right{
+.btn, .fa-chevron-up{
   align-items: center;
-  min-width: 170px;
+  flex-shrink: 0; 
+  padding: 4px;
+  border-radius: 4px;
 }
 
-.flex-left{
+.btn:hover, .fa-chevron-up:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn:active .box i{
+  color: #4bc800;
+}
+
+.footer-left{
   padding-left: 4px;
 }
 
-.flex-right{
+.footer-right{
   text-align: right;
 }
 
-.flex-right span{
-  display: inline-block;
-  line-height: 70px;
-  padding: 0 16px;
+.footer-right button{
+  background-color: #b72525;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
   font-size: 0.6rem;
-  background-color: #4a4a4a;
-  color: red;
+  font-weight: bold;
+  margin-right: 8px;
+  box-shadow: 0 4px 8px black;
 }
 
 
